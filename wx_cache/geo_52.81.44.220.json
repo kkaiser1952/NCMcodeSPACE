@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Beijing",
+   "continent" : "Asia",
+   "country" : "China",
+   "countryCode" : "CN",
+   "ipName" : "ec2-52-81-44-220.cn-north-1.compute.amazonaws.com.cn",
+   "ipType" : "Residential",
+   "isp" : "Beijing Sinnet Technology Co., Ltd.",
+   "lat" : "39.9075",
+   "lon" : "116.39723",
+   "org" : "Beijing Sinnet Technology Co., Ltd.",
+   "query" : "52.81.44.220",
+   "region" : "Beijing",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Paris",
+   "continent" : "Europe",
+   "country" : "France",
+   "countryCode" : "FR",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Online SAS",
+   "lat" : "48.85341",
+   "lon" : "2.3488",
+   "org" : "Online SAS",
+   "query" : "51.159.214.65",
+   "region" : "Ile-de-France",
+   "status" : "success"
+}

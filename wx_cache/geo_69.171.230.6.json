@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Menlo Park",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Facebook, Inc.",
+   "lat" : "37.45383",
+   "lon" : "-122.18219",
+   "org" : "Facebook, Inc.",
+   "query" : "69.171.230.6",
+   "region" : "California",
+   "status" : "success"
+}

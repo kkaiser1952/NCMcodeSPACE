@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Portland",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "ec2-35-91-45-55.us-west-2.compute.amazonaws.com",
+   "ipType" : "Residential",
+   "isp" : "Amazon.com",
+   "lat" : "45.52345",
+   "lon" : "-122.67621",
+   "org" : "Amazon.com",
+   "query" : "35.91.45.55",
+   "region" : "Oregon",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Los Angeles",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Tencent Building, Kejizhongyi Avenue",
+   "lat" : "34.05223",
+   "lon" : "-118.24368",
+   "org" : "Tencent Building, Kejizhongyi Avenue",
+   "query" : "49.51.179.103",
+   "region" : "California",
+   "status" : "success"
+}

@@ -1,0 +1,104 @@
+/* sidebar.css */
+/* Updated: 2024-10-09 */
+
+#columnSidebar {
+    position: fixed;
+    top: 0;
+    right: -400px; /* Sidebar starts off-screen */
+    width: 400px;
+    height: 100%;
+    background-color: #f1f1f1;
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+    overflow-y: auto;
+    transition: right 0.3s ease; /* Smooth transition when opening/closing */
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+#columnSidebar.show {
+    right: 0; /* Sidebar moves into view */
+}
+
+#columnSidebar .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#columnSidebar #columnOptions {
+    margin-top: 20px;
+}
+
+#columnSidebar .checkbox-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; /* Stack the title and checkboxes vertically */
+}
+
+#columnSidebar .checkbox-group h4 {
+    margin-bottom: 10px; /* Space between title and checkboxes */
+    font-size: 18px;
+    color: #333;
+}
+
+/* Set up a grid layout for checkboxes */
+#columnSidebar .checkbox-wrapper {
+    display: flex; /* Use flex to align label and checkbox */
+    align-items: center; /* Center the items vertically */
+    margin-bottom: 10px; /* Space between each checkbox */
+    width: calc(50% - 10px); /* Adjust width to fit in two columns */
+    box-sizing: border-box; /* Prevent padding from affecting the width */
+}
+
+/* Create a flex container for checkboxes and allow wrapping */
+.checkbox-group .checkbox-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap into multiple lines */
+}
+
+#columnSidebar .checkbox-wrapper label {
+    margin-left: 8px; /* Space between checkbox and label */
+}
+
+#columnSidebar .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#columnSidebar button {
+    padding: 12px 20px;
+    background-color: #4CAF50; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease; /* Smooth hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow for a button-like appearance */
+}
+
+#columnSidebar button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+#columnSidebar button:active {
+    background-color: #3e8e41; /* Even darker when clicked */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow when pressed */
+    transform: translateY(2px); /* Simulates pressing effect */
+}
+
+/* Ensure the two buttons are properly aligned and spaced */
+#columnSidebar button:first-child {
+    margin-right: 10px; /* Add spacing between buttons */
+}
+
+#columnSidebar h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}

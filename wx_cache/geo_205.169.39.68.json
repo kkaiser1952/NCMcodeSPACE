@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Dallas",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "CenturyLink Communications, LLC",
+   "lat" : "32.78306",
+   "lon" : "-96.80667",
+   "org" : "CenturyLink Communications, LLC",
+   "query" : "205.169.39.68",
+   "region" : "Texas",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Lille",
+   "continent" : "Europe",
+   "country" : "France",
+   "countryCode" : "FR",
+   "ipName" : "ns31051771.ip-54-38-85.eu",
+   "ipType" : "Residential",
+   "isp" : "OVH SAS",
+   "lat" : "50.63297",
+   "lon" : "3.05858",
+   "org" : "OVH SAS",
+   "query" : "54.38.85.38",
+   "region" : "Hauts-de-France",
+   "status" : "success"
+}

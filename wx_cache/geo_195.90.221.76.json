@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Hamburg",
+   "continent" : "Europe",
+   "country" : "Germany",
+   "countryCode" : "DE",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "EVANZO e-commerce GmbH",
+   "lat" : "53.57532",
+   "lon" : "10.01534",
+   "org" : "EVANZO e-commerce GmbH",
+   "query" : "195.90.221.76",
+   "region" : "Hamburg",
+   "status" : "success"
+}

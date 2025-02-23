@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Sofia",
+   "continent" : "Europe",
+   "country" : "Bulgaria",
+   "countryCode" : "BG",
+   "ipName" : "dhcp-246.net1.bg",
+   "ipType" : "Residential",
+   "isp" : "Silent Connection Ltd.",
+   "lat" : "42.69751",
+   "lon" : "23.32415",
+   "org" : "Silent Connection Ltd.",
+   "query" : "94.156.79.246",
+   "region" : "Sofia-Capital",
+   "status" : "success"
+}

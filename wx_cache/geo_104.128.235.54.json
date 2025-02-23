@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Atlanta",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "HostUS",
+   "lat" : "33.749",
+   "lon" : "-84.38798",
+   "org" : "HostUS",
+   "query" : "104.128.235.54",
+   "region" : "Georgia",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Singapore",
+   "continent" : "Asia",
+   "country" : "Singapore",
+   "countryCode" : "SG",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "DigitalOcean, LLC",
+   "lat" : "1.22083",
+   "lon" : "103.78056",
+   "org" : "DigitalOcean, LLC",
+   "query" : "68.183.188.234",
+   "region" : "",
+   "status" : "success"
+}

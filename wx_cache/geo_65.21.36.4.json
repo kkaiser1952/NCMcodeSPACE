@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Helsinki",
+   "continent" : "Europe",
+   "country" : "Finland",
+   "countryCode" : "FI",
+   "ipName" : "static.4.36.21.65.clients.your-server.de",
+   "ipType" : "Residential",
+   "isp" : "Hetzner Online GmbH",
+   "lat" : "60.16952",
+   "lon" : "24.93545",
+   "org" : "Hetzner Online GmbH",
+   "query" : "65.21.36.4",
+   "region" : "Uusimaa",
+   "status" : "success"
+}

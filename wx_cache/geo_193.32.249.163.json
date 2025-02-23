@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Amsterdam",
+   "continent" : "Europe",
+   "country" : "Netherlands",
+   "countryCode" : "NL",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "31173 Services AB",
+   "lat" : "52.37403",
+   "lon" : "4.88969",
+   "org" : "31173 Services AB",
+   "query" : "193.32.249.163",
+   "region" : "Noord-Holland",
+   "status" : "success"
+}

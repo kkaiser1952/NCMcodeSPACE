@@ -1,0 +1,26 @@
+<p>
+I'd like you to help me write some reports about my Net Control Manager (NCM) CRUD online application. NCM is a tool designed to manage and coordinate amateur radio communication nets. It helps track check-ins, log activity, and provide various features to support net control operations.  Net control operations are meant to be handled according to the guidelines set up by ARRL EMCOMM training procedures. This reflects the concepts promoted by NIMS and Homeland Security to handle emergency situations. 
+
+</p><p> Nets are started by an individual generally for a group or club, stations are added based on their individual amateur radio callsign, nets will consist of as few as one to many participants (stations).
+</p><p>
+    Key columns to my reports in the ncm.NetLog table are:
+    1. netID -> This is the number assigned to each new net
+    2. callsign -> The callsign of the individual joining the net
+    3. netcall -> A unique name for each net i.e. MESN, MODES, NR0AD
+    4. band -> What Amateur Band or Bands is the net on
+    5. dttm (timestamp) -> The earliest values is the start time of the net, latest value is the end time of the net.
+    6. logdate (datetime) -> Time a station/callsign logged into the net
+    7. timeout (datetime) -> Time a station/callsign logged out of the net
+    8. activity -> Defines the function of this net
+    9. frequency -> Details what band or frequency a net operates on
+</p><p>
+The netID 0 (zero), should not be used in any query.
+Do not use any net where the netcall = 'TE0ST', 'TEST', or has 'TEST' in the value.
+Each net is defined by its netID, regardless of its start or end times.
+<br>
+Each net consist of unique to it callsigns, with the exception of a net that has a frequency value of 'Multiple Bands' or '80/40 Meters' it may have duplicate callsigns, those should be counted as 1.
+</p><p>
+What I'm looking for;
+    1. A report that shows the growth (or lack of) using callsign count, by 'activity' within 'netcall'.
+</p><p>
+Please build the MySQL v8 query for this report.

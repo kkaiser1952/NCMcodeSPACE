@@ -1,0 +1,112 @@
+/* ncm_reports.css */
+/* unified-ics-report-styles.css */
+/* CSS for ics205, ics214, ics309 reports */
+/* Written: 2024-09-16 */
+    
+
+
+/* Common styles for all reports */
+.report {
+    font-family: Arial, sans-serif;
+    font-size: 9.5pt;
+    color: black;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Common table styles */
+.report-table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.report-table th,
+.report-table td {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+/* Common text styles */
+.report-title {
+    font-size: 12pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+/* ICS-214 specific styles */
+.ics214 .firstword {
+    color: #4604cb;
+    font-weight: bold;
+}
+
+.ics214 .box {
+    border: 2pt solid black;
+    margin-bottom: 10px;
+}
+
+.ics214 .box-title {
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.ics214 .box-content {
+    padding: 5px;
+}
+
+.ics214 .box-row {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1pt solid black;
+}
+
+.ics214 .box-cell {
+    flex: 1;
+    padding: 3px;
+    border-right: 1pt solid black;
+}
+
+.ics214 .box-cell:last-child {
+    border-right: none;
+}
+
+/* ICS-205 specific styles */
+.ics205 .report-table {
+    width: 100%;
+}
+
+/* ICS-309 specific styles */
+/* Add any specific styles for ICS-309 if needed */
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .report {
+        font-size: 8.5pt;
+    }
+
+    .report-table {
+        width: 100%;
+    }
+}
+
+/* Print styles */
+@media print {
+    .report {
+        font-size: 9pt;
+    }
+
+    .report-table {
+        page-break-inside: avoid;
+    }
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Nanjing",
+   "continent" : "Asia",
+   "country" : "China",
+   "countryCode" : "CN",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "ChinaNet",
+   "lat" : "32.06167",
+   "lon" : "118.77778",
+   "org" : "ChinaNet",
+   "query" : "180.110.203.108",
+   "region" : "Jiangsu",
+   "status" : "success"
+}

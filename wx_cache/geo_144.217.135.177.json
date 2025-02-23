@@ -1,0 +1,17 @@
+{
+   "businessName" : "DataProvider B.V.",
+   "businessWebsite" : "",
+   "city" : "Montreal",
+   "continent" : "North America",
+   "country" : "Canada",
+   "countryCode" : "CA",
+   "ipName" : "crawl-144-217-135-177.dataproviderbot.com",
+   "ipType" : "Business",
+   "isp" : "OVH Hosting, Inc.",
+   "lat" : "45.50884",
+   "lon" : "-73.58781",
+   "org" : "DataProvider B.V.",
+   "query" : "144.217.135.177",
+   "region" : "Quebec",
+   "status" : "success"
+}

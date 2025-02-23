@@ -1,0 +1,34 @@
+{
+    "name": "fold-selection",
+    "displayName": "Fold Selection",
+    "description": "Fold selected lines in the editor",
+    "version": "0.0.1",
+    "publisher": "your-name",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.foldSelection"
+    ],
+    "main": "./fold.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.foldSelection",
+                "title": "Fold Selection"
+            }
+        ],
+        "menus": {
+            "editor/context": [
+                {
+                    "when": "editorHasSelection",
+                    "command": "extension.foldSelection",
+                    "group": "modifications"
+                }
+            ]
+        }
+    }
+}

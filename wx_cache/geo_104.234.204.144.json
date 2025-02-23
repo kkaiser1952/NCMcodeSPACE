@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Montreal",
+   "continent" : "North America",
+   "country" : "Canada",
+   "countryCode" : "CA",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "12651980 Canada Inc.",
+   "lat" : "45.50884",
+   "lon" : "-73.58781",
+   "org" : "12651980 Canada Inc.",
+   "query" : "104.234.204.144",
+   "region" : "Quebec",
+   "status" : "success"
+}

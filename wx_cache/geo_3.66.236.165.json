@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Frankfurt am Main",
+   "continent" : "Europe",
+   "country" : "Germany",
+   "countryCode" : "DE",
+   "ipName" : "ec2-3-66-236-165.eu-central-1.compute.amazonaws.com",
+   "ipType" : "Residential",
+   "isp" : "Amazon.com",
+   "lat" : "50.11552",
+   "lon" : "8.68417",
+   "org" : "Amazon.com",
+   "query" : "3.66.236.165",
+   "region" : "Hessen",
+   "status" : "success"
+}

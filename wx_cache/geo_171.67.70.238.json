@@ -1,0 +1,17 @@
+{
+   "businessName" : "Stanford University",
+   "businessWebsite" : "",
+   "city" : "Stanford",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "research.esrg.stanford.edu",
+   "ipType" : "Education",
+   "isp" : "Stanford University",
+   "lat" : "37.42411",
+   "lon" : "-122.16608",
+   "org" : "Stanford University",
+   "query" : "171.67.70.238",
+   "region" : "California",
+   "status" : "success"
+}

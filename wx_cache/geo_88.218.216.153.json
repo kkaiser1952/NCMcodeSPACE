@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Moscow",
+   "continent" : "Europe",
+   "country" : "Russia",
+   "countryCode" : "RU",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Racktech Co., Ltd.",
+   "lat" : "55.75222",
+   "lon" : "37.61556",
+   "org" : "Racktech Co., Ltd.",
+   "query" : "88.218.216.153",
+   "region" : "Moscow",
+   "status" : "success"
+}

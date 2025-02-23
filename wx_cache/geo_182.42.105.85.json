@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Jinan",
+   "continent" : "Asia",
+   "country" : "China",
+   "countryCode" : "CN",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Chinanet Shandong Province Network",
+   "lat" : "36.66833",
+   "lon" : "116.99722",
+   "org" : "Chinanet Shandong Province Network",
+   "query" : "182.42.105.85",
+   "region" : "Shandong",
+   "status" : "success"
+}

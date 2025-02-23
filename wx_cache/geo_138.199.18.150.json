@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Frankfurt am Main",
+   "continent" : "Europe",
+   "country" : "Germany",
+   "countryCode" : "DE",
+   "ipName" : "unn-138-199-18-150.datapacket.com",
+   "ipType" : "Residential",
+   "isp" : "Datacamp Limited",
+   "lat" : "50.11552",
+   "lon" : "8.68417",
+   "org" : "Datacamp Limited",
+   "query" : "138.199.18.150",
+   "region" : "Hessen",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Santa Clara",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Palo Alto Networks",
+   "lat" : "37.35411",
+   "lon" : "-121.95524",
+   "org" : "Palo Alto Networks",
+   "query" : "65.154.226.166",
+   "region" : "California",
+   "status" : "success"
+}

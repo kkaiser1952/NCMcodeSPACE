@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Hefei",
+   "continent" : "Asia",
+   "country" : "China",
+   "countryCode" : "CN",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "ChinaNet",
+   "lat" : "31.86389",
+   "lon" : "117.28083",
+   "org" : "ChinaNet",
+   "query" : "114.96.103.33",
+   "region" : "Anhui",
+   "status" : "success"
+}

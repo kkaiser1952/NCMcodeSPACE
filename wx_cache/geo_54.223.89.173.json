@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Beijing",
+   "continent" : "Asia",
+   "country" : "China",
+   "countryCode" : "CN",
+   "ipName" : "ec2-54-223-89-173.cn-north-1.compute.amazonaws.com.cn",
+   "ipType" : "Residential",
+   "isp" : "Beijing Guanghuan Xinwang Digital Technology co.Ltd",
+   "lat" : "39.9075",
+   "lon" : "116.39723",
+   "org" : "Beijing Guanghuan Xinwang Digital Technology co.Ltd",
+   "query" : "54.223.89.173",
+   "region" : "Beijing",
+   "status" : "success"
+}

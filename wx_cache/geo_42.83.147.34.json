@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Beijing",
+   "continent" : "Asia",
+   "country" : "China",
+   "countryCode" : "CN",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "China Internet Network Infomation Center",
+   "lat" : "39.9075",
+   "lon" : "116.39723",
+   "org" : "China Internet Network Infomation Center",
+   "query" : "42.83.147.34",
+   "region" : "Beijing",
+   "status" : "success"
+}

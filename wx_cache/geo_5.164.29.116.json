@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Moscow",
+   "continent" : "Europe",
+   "country" : "Russia",
+   "countryCode" : "RU",
+   "ipName" : "5x164x29x116.static.tula.ertelecom.ru",
+   "ipType" : "Residential",
+   "isp" : "JSC \"ER-Telecom Holding\"",
+   "lat" : "55.75222",
+   "lon" : "37.61556",
+   "org" : "JSC \"ER-Telecom Holding\"",
+   "query" : "5.164.29.116",
+   "region" : "Moscow",
+   "status" : "success"
+}

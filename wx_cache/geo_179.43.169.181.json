@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Zurich",
+   "continent" : "Europe",
+   "country" : "Switzerland",
+   "countryCode" : "CH",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Private Layer Inc",
+   "lat" : "47.36667",
+   "lon" : "8.55",
+   "org" : "Private Layer Inc",
+   "query" : "179.43.169.181",
+   "region" : "Zurich",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Amsterdam",
+   "continent" : "Europe",
+   "country" : "Netherlands",
+   "countryCode" : "NL",
+   "ipName" : "elittle.net-1527096849290-s-1vcpu-1gb-ams3-01",
+   "ipType" : "Residential",
+   "isp" : "DigitalOcean, LLC",
+   "lat" : "52.37403",
+   "lon" : "4.88969",
+   "org" : "DigitalOcean, LLC",
+   "query" : "178.62.197.136",
+   "region" : "Noord-Holland",
+   "status" : "success"
+}

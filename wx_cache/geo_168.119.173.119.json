@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Nurnberg",
+   "continent" : "Europe",
+   "country" : "Germany",
+   "countryCode" : "DE",
+   "ipName" : "static.119.173.119.168.clients.your-server.de",
+   "ipType" : "Residential",
+   "isp" : "Hetzner Online GmbH",
+   "lat" : "49.45421",
+   "lon" : "11.07752",
+   "org" : "Hetzner Online GmbH",
+   "query" : "168.119.173.119",
+   "region" : "Bayern",
+   "status" : "success"
+}

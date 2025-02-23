@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Quincy",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "msnbot-157-55-39-14.search.msn.com",
+   "ipType" : "Residential",
+   "isp" : "Microsoft Corporation",
+   "lat" : "47.2343",
+   "lon" : "-119.85255",
+   "org" : "Microsoft Corporation",
+   "query" : "157.55.39.14",
+   "region" : "Washington",
+   "status" : "success"
+}

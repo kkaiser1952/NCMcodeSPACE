@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Vienna",
+   "continent" : "Europe",
+   "country" : "Austria",
+   "countryCode" : "AT",
+   "ipName" : "unn-156-146-60-70.cdn77.com",
+   "ipType" : "Residential",
+   "isp" : "Datacamp Limited",
+   "lat" : "48.20849",
+   "lon" : "16.37208",
+   "org" : "Datacamp Limited",
+   "query" : "156.146.60.70",
+   "region" : "Vienna",
+   "status" : "success"
+}

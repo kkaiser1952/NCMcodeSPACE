@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Stockholm",
+   "continent" : "Europe",
+   "country" : "Sweden",
+   "countryCode" : "SE",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "GlobalConnect AB",
+   "lat" : "59.33258",
+   "lon" : "18.0649",
+   "org" : "GlobalConnect AB",
+   "query" : "130.255.166.11",
+   "region" : "Stockholms lan",
+   "status" : "success"
+}

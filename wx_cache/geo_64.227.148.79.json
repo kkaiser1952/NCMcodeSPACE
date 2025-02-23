@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Bengaluru",
+   "continent" : "Asia",
+   "country" : "India",
+   "countryCode" : "IN",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "DigitalOcean, LLC",
+   "lat" : "12.97194",
+   "lon" : "77.59369",
+   "org" : "DigitalOcean, LLC",
+   "query" : "64.227.148.79",
+   "region" : "Karnataka",
+   "status" : "success"
+}

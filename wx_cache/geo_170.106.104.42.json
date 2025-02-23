@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "San Francisco",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "16 Collyer Quay",
+   "lat" : "37.77493",
+   "lon" : "-122.41942",
+   "org" : "16 Collyer Quay",
+   "query" : "170.106.104.42",
+   "region" : "California",
+   "status" : "success"
+}

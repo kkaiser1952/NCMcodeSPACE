@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Yangzhou",
+   "continent" : "Asia",
+   "country" : "China",
+   "countryCode" : "CN",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "ChinaNet",
+   "lat" : "32.39722",
+   "lon" : "119.43583",
+   "org" : "ChinaNet",
+   "query" : "221.229.106.25",
+   "region" : "Jiangsu",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Dublin",
+   "continent" : "Europe",
+   "country" : "Ireland",
+   "countryCode" : "IE",
+   "ipName" : "ec2-3-254-151-73.eu-west-1.compute.amazonaws.com",
+   "ipType" : "Residential",
+   "isp" : "Amazon.com",
+   "lat" : "53.33306",
+   "lon" : "-6.24889",
+   "org" : "Amazon.com",
+   "query" : "3.254.151.73",
+   "region" : "Leinster",
+   "status" : "success"
+}

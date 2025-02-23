@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Denver",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "T-Mobile USA, Inc.",
+   "lat" : "39.73915",
+   "lon" : "-104.9847",
+   "org" : "T-Mobile USA, Inc.",
+   "query" : "172.59.224.22",
+   "region" : "Colorado",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Zurich",
+   "continent" : "Europe",
+   "country" : "Switzerland",
+   "countryCode" : "CH",
+   "ipName" : "cerebro-sdc-prod-103.kaspersky-labs.com",
+   "ipType" : "Residential",
+   "isp" : "Kaspersky Lab Switzerland GmbH",
+   "lat" : "47.36667",
+   "lon" : "8.55",
+   "org" : "Kaspersky Lab Switzerland GmbH",
+   "query" : "77.74.177.119",
+   "region" : "Zurich",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Boston",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Geekyworks IT Solutions Pvt Ltd",
+   "lat" : "42.35843",
+   "lon" : "-71.05977",
+   "org" : "Geekyworks IT Solutions Pvt Ltd",
+   "query" : "168.151.165.173",
+   "region" : "Massachusetts",
+   "status" : "success"
+}

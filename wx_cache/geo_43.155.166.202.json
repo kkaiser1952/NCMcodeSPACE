@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Seoul",
+   "continent" : "Asia",
+   "country" : "South Korea",
+   "countryCode" : "KR",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Tencent Building, Kejizhongyi Avenue",
+   "lat" : "37.566",
+   "lon" : "126.9784",
+   "org" : "Tencent Building, Kejizhongyi Avenue",
+   "query" : "43.155.166.202",
+   "region" : "Seoul",
+   "status" : "success"
+}

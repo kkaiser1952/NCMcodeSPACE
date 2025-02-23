@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Hanoi",
+   "continent" : "Asia",
+   "country" : "Vietnam",
+   "countryCode" : "VN",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Viettel Group",
+   "lat" : "21.0245",
+   "lon" : "105.84117",
+   "org" : "Viettel Group",
+   "query" : "171.244.43.14",
+   "region" : "Hanoi",
+   "status" : "success"
+}

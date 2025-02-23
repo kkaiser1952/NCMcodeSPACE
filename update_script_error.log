@@ -1,0 +1,90 @@
+[2024-05-19 18:46:32] Error processing table stations: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1608' for key 'stations.PRIMARY'
+[2024-05-19 18:46:32] Query: SELECT * FROM stations
+[2024-05-19 18:46:32] Error details: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1608' for key 'stations.PRIMARY'
+[2024-05-19 20:47:41] Error processing table stations: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1608' for key 'stations.PRIMARY'
+[2024-05-19 20:47:41] Query: SELECT * FROM stations
+[2024-05-19 20:47:41] Error details: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1608' for key 'stations.PRIMARY'
+[2024-05-19 20:47:42] Error processing table TimeLog: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'TimeLog.PRIMARY'
+[2024-05-19 20:47:42] Query: SELECT * FROM TimeLog
+[2024-05-19 20:47:42] Error details: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'TimeLog.PRIMARY'
+[2024-05-19 20:47:44] Error processing table NetLog: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'NetLog.PRIMARY'
+[2024-05-19 20:47:44] Query: SELECT * FROM NetLog
+[2024-05-19 20:47:44] Error details: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'NetLog.PRIMARY'
+[2024-05-19 21:00:34] Error processing table stations: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1608' for key 'stations.PRIMARY'
+[2024-05-19 21:00:34] Query: SELECT * FROM stations
+[2024-05-19 21:00:34] Error details: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1608' for key 'stations.PRIMARY'
+[2024-05-19 21:00:35] Error processing table NetKind: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'NetKind.PRIMARY'
+[2024-05-19 21:00:35] Query: SELECT * FROM NetKind
+[2024-05-19 21:00:35] Error details: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'NetKind.PRIMARY'
+[2024-05-19 21:04:12] Error processing table stations: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1608' for key 'stations.PRIMARY'
+[2024-05-19 21:04:12] Query: SELECT * FROM stations
+[2024-05-19 21:04:12] Error details: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1608' for key 'stations.PRIMARY'
+[2024-05-19 21:04:12] Error processing table NetKind: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'NetKind.PRIMARY'
+[2024-05-19 21:04:12] Query: SELECT * FROM NetKind
+[2024-05-19 21:04:12] Error details: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'NetKind.PRIMARY'
+[2024-05-19 22:18:14] Error processing table NetLog: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'NetLog.PRIMARY'
+[2024-05-19 22:18:14] Query: SELECT * FROM NetLog
+[2024-05-19 22:18:14] Error details: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'NetLog.PRIMARY'
+[2024-05-19 22:18:14] Error processing table TimeLog: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'TimeLog.PRIMARY'
+[2024-05-19 22:18:14] Query: SELECT * FROM TimeLog
+[2024-05-19 22:18:14] Error details: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'TimeLog.PRIMARY'
+[2024-05-21 15:57:22] Error processing table : SQLSTATE[HY000] [1045] Access denied for user 'ncm'@'localhost' (using password: YES) | Error Code: 1045
+[2024-05-21 15:57:22] Query: 
+[2024-05-21 15:57:22] Error details: SQLSTATE[HY000] [1045] Access denied for user 'ncm'@'localhost' (using password: YES)
+[2024-05-21 16:04:07] Error processing table : SQLSTATE[HY000] [1045] Access denied for user 'ncm'@'localhost' (using password: YES) | Error Code: 1045
+[2024-05-21 16:04:07] Query: 
+[2024-05-21 16:04:07] Error details: SQLSTATE[HY000] [1045] Access denied for user 'ncm'@'localhost' (using password: YES)
+[2024-05-21 16:23:35] Error processing table : SQLSTATE[HY000] [1045] Access denied for user 'ncm'@'localhost' (using password: YES) | Error Code: 1045
+[2024-05-21 16:23:35] Query: 
+[2024-05-21 16:23:35] Error details: SQLSTATE[HY000] [1045] Access denied for user 'ncm'@'localhost' (using password: YES)
+[2024-05-21 16:34:39] Error processing table : SQLSTATE[HY000] [2002] Connection refused | Error Code: 2002
+[2024-05-21 16:34:39] Query: 
+[2024-05-21 16:34:39] Error details: SQLSTATE[HY000] [2002] Connection refused
+[2024-05-21 16:36:41] Error processing table : SQLSTATE[HY000] [2002] Connection refused | Error Code: 2002
+[2024-05-21 16:36:41] Query: 
+[2024-05-21 16:36:41] Error details: SQLSTATE[HY000] [2002] Connection refused
+[2024-05-21 16:37:13] Error processing table : SQLSTATE[HY000] [2002] Connection refused | Error Code: 2002
+[2024-05-21 16:37:13] Query: 
+[2024-05-21 16:37:13] Error details: SQLSTATE[HY000] [2002] Connection refused
+[2024-05-21 16:39:12] Error processing table : SQLSTATE[HY000] [2002] Connection refused | Error Code: 2002
+[2024-05-21 16:39:12] Query: 
+[2024-05-21 16:39:12] Error details: SQLSTATE[HY000] [2002] Connection refused
+[2024-05-21 16:42:25] Error processing table : SQLSTATE[HY000] [2002] Connection refused | Error Code: 2002
+[2024-05-21 16:42:25] Query: 
+[2024-05-21 16:42:25] Error details: SQLSTATE[HY000] [2002] Connection refused
+[2024-05-21 16:59:32] Error processing table : SQLSTATE[HY000] [2002] Connection refused | Error Code: 2002
+[2024-05-21 16:59:32] Query: 
+[2024-05-21 16:59:32] Error details: SQLSTATE[HY000] [2002] Connection refused
+[2024-05-21 22:11:43] Error processing table : SQLSTATE[HY000] [2002] Connection refused | Error Code: 2002
+[2024-05-21 22:11:43] Query: 
+[2024-05-21 22:11:43] Error details: SQLSTATE[HY000] [2002] Connection refused
+[2024-05-21 22:28:39] Error processing table : SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known | Error Code: 2002
+[2024-05-21 22:28:39] Query: 
+[2024-05-21 22:28:39] Error details: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known
+[2024-05-21 22:29:18] Error processing table : SQLSTATE[HY000] [2002] Connection refused | Error Code: 2002
+[2024-05-21 22:29:18] Query: 
+[2024-05-21 22:29:18] Error details: SQLSTATE[HY000] [2002] Connection refused
+[2024-05-21 22:46:05] Error processing table : SQLSTATE[HY000] [2002] Connection refused | Error Code: 2002
+[2024-05-21 22:46:05] Query: 
+[2024-05-21 22:46:05] Error details: SQLSTATE[HY000] [2002] Connection refused
+[2024-05-21 22:46:51] Error processing table : SQLSTATE[HY000] [2002] Connection refused | Error Code: 2002
+[2024-05-21 22:46:51] Query: 
+[2024-05-21 22:46:51] Error details: SQLSTATE[HY000] [2002] Connection refused
+[2024-05-22 03:22:16] Error processing table : SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: YES) | Error Code: 1045
+[2024-05-22 03:22:16] Query: 
+[2024-05-22 03:22:16] Error details: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: YES)
+[2024-05-22 03:25:56] Error processing table : SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: YES) | Error Code: 1045
+[2024-05-22 03:25:56] Query: 
+[2024-05-22 03:25:56] Error details: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: YES)
+[2024-05-22 03:27:34] Error processing table : SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: YES) | Error Code: 1045
+[2024-05-22 03:27:34] Query: 
+[2024-05-22 03:27:34] Error details: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: YES)
+[2024-05-22 03:29:00] Error processing table : SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: YES) | Error Code: 1045
+[2024-05-22 03:29:00] Query: 
+[2024-05-22 03:29:00] Error details: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: YES)
+[2024-05-22 03:36:36] Error processing table : SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: YES) | Error Code: 1045
+[2024-05-22 03:36:36] Query: 
+[2024-05-22 03:36:36] Error details: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: YES)
+[2024-05-22 03:47:26] Error processing table : SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: YES) | Error Code: 1045
+[2024-05-22 03:47:26] Query: 
+[2024-05-22 03:47:26] Error details: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: YES)

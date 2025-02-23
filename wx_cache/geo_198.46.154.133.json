@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Buffalo",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "198-46-154-133-host.colocrossing.com",
+   "ipType" : "Residential",
+   "isp" : "ColoCrossing",
+   "lat" : "42.88645",
+   "lon" : "-78.87837",
+   "org" : "ColoCrossing",
+   "query" : "198.46.154.133",
+   "region" : "New York",
+   "status" : "success"
+}

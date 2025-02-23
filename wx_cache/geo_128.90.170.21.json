@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Austin",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "undefined.hostname.localhost",
+   "ipType" : "Residential",
+   "isp" : "Powerhouse Management, Inc.",
+   "lat" : "30.26715",
+   "lon" : "-97.74306",
+   "org" : "Powerhouse Management, Inc.",
+   "query" : "128.90.170.21",
+   "region" : "Texas",
+   "status" : "success"
+}

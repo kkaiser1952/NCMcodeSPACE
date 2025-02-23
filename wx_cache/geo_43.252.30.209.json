@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Chicago",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "HostRoyale Technologies Pvt Ltd",
+   "lat" : "41.85003",
+   "lon" : "-87.65005",
+   "org" : "HostRoyale Technologies Pvt Ltd",
+   "query" : "43.252.30.209",
+   "region" : "Illinois",
+   "status" : "success"
+}

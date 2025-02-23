@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Amsterdam",
+   "continent" : "Europe",
+   "country" : "Netherlands",
+   "countryCode" : "NL",
+   "ipName" : "no-reverse-dns-configured.com",
+   "ipType" : "Residential",
+   "isp" : "IP Volume inc",
+   "lat" : "52.37403",
+   "lon" : "4.88969",
+   "org" : "IP Volume inc",
+   "query" : "89.248.172.115",
+   "region" : "Noord-Holland",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Haikou",
+   "continent" : "Asia",
+   "country" : "China",
+   "countryCode" : "CN",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "ChinaNet",
+   "lat" : "20.04583",
+   "lon" : "110.34167",
+   "org" : "ChinaNet",
+   "query" : "124.225.164.130",
+   "region" : "Hainan",
+   "status" : "success"
+}

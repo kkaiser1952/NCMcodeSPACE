@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Madrid",
+   "continent" : "Europe",
+   "country" : "Spain",
+   "countryCode" : "ES",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Google LLC",
+   "lat" : "40.4165",
+   "lon" : "-3.70256",
+   "org" : "Google LLC",
+   "query" : "34.0.202.243",
+   "region" : "Madrid",
+   "status" : "success"
+}

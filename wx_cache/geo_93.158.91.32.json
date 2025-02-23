@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Stockholm",
+   "continent" : "Europe",
+   "country" : "Sweden",
+   "countryCode" : "SE",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Availo Networks AB",
+   "lat" : "59.33258",
+   "lon" : "18.0649",
+   "org" : "Availo Networks AB",
+   "query" : "93.158.91.32",
+   "region" : "Stockholms lan",
+   "status" : "success"
+}

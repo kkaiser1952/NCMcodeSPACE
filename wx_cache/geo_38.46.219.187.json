@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Draper",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "FiberState, LLC",
+   "lat" : "40.52467",
+   "lon" : "-111.86382",
+   "org" : "FiberState, LLC",
+   "query" : "38.46.219.187",
+   "region" : "Utah",
+   "status" : "success"
+}

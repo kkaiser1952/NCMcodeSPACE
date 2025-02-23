@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Amarillo",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Cloudflare, Inc.",
+   "lat" : "35.222",
+   "lon" : "-101.8313",
+   "org" : "Cloudflare, Inc.",
+   "query" : "104.28.48.89",
+   "region" : "Texas",
+   "status" : "success"
+}

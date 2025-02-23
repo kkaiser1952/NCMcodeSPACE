@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Singapore",
+   "continent" : "Asia",
+   "country" : "Singapore",
+   "countryCode" : "SG",
+   "ipName" : "cloudmini29032023.gz-s-1vcpu-1gb-sgp1-01",
+   "ipType" : "Residential",
+   "isp" : "DigitalOcean, LLC",
+   "lat" : "1.22083",
+   "lon" : "103.78056",
+   "org" : "DigitalOcean, LLC",
+   "query" : "159.223.58.70",
+   "region" : "",
+   "status" : "success"
+}

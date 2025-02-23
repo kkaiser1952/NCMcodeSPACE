@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Toronto",
+   "continent" : "North America",
+   "country" : "Canada",
+   "countryCode" : "CA",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "DigitalOcean, LLC",
+   "lat" : "43.70011",
+   "lon" : "-79.4163",
+   "org" : "DigitalOcean, LLC",
+   "query" : "167.99.185.13",
+   "region" : "Ontario",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Black Mountain",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "097-082-235-171.res.spectrum.com",
+   "ipType" : "Residential",
+   "isp" : "Charter Communications",
+   "lat" : "35.6179",
+   "lon" : "-82.32123",
+   "org" : "Charter Communications",
+   "query" : "97.82.235.171",
+   "region" : "North Carolina",
+   "status" : "success"
+}

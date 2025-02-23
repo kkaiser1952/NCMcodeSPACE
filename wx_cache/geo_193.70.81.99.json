@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Roubaix",
+   "continent" : "Europe",
+   "country" : "France",
+   "countryCode" : "FR",
+   "ipName" : "ns3036170.ip-193-70-81.eu",
+   "ipType" : "Residential",
+   "isp" : "OVH SAS",
+   "lat" : "50.69421",
+   "lon" : "3.17456",
+   "org" : "OVH SAS",
+   "query" : "193.70.81.99",
+   "region" : "Hauts-de-France",
+   "status" : "success"
+}

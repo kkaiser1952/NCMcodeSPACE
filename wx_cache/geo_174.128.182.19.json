@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Chicago",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Atlantic Metro Communications II, Inc.",
+   "lat" : "41.85003",
+   "lon" : "-87.65005",
+   "org" : "Atlantic Metro Communications II, Inc.",
+   "query" : "174.128.182.19",
+   "region" : "Illinois",
+   "status" : "success"
+}

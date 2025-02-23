@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Shanghai",
+   "continent" : "Asia",
+   "country" : "China",
+   "countryCode" : "CN",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "ChinaNet",
+   "lat" : "31.22222",
+   "lon" : "121.45806",
+   "org" : "ChinaNet",
+   "query" : "106.75.101.79",
+   "region" : "Shanghai Municipality",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Ann Arbor",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "unused-space.coop.net",
+   "ipType" : "Residential",
+   "isp" : "Censys, Inc.",
+   "lat" : "42.27756",
+   "lon" : "-83.74088",
+   "org" : "Censys, Inc.",
+   "query" : "199.45.154.72",
+   "region" : "Michigan",
+   "status" : "success"
+}

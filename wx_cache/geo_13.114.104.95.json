@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Tokyo",
+   "continent" : "Asia",
+   "country" : "Japan",
+   "countryCode" : "JP",
+   "ipName" : "ec2-13-114-104-95.ap-northeast-1.compute.amazonaws.com",
+   "ipType" : "Residential",
+   "isp" : "Amazon.com",
+   "lat" : "35.6895",
+   "lon" : "139.69171",
+   "org" : "Amazon.com",
+   "query" : "13.114.104.95",
+   "region" : "Tokyo",
+   "status" : "success"
+}

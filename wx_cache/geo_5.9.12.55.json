@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Falkenstein/Vogtland",
+   "continent" : "Europe",
+   "country" : "Germany",
+   "countryCode" : "DE",
+   "ipName" : "dev.newscope.com",
+   "ipType" : "Residential",
+   "isp" : "Hetzner Online GmbH",
+   "lat" : "50.47788",
+   "lon" : "12.37129",
+   "org" : "Hetzner Online GmbH",
+   "query" : "5.9.12.55",
+   "region" : "Sachsen",
+   "status" : "success"
+}

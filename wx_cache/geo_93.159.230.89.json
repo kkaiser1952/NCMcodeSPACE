@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Moscow",
+   "continent" : "Europe",
+   "country" : "Russia",
+   "countryCode" : "RU",
+   "ipName" : "cerebro-ldc-prod-102.kaspersky-labs.com",
+   "ipType" : "Residential",
+   "isp" : "Kaspersky Lab Switzerland GmbH",
+   "lat" : "55.75222",
+   "lon" : "37.61556",
+   "org" : "Kaspersky Lab Switzerland GmbH",
+   "query" : "93.159.230.89",
+   "region" : "Moscow",
+   "status" : "success"
+}

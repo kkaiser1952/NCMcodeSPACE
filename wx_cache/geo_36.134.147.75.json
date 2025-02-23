@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Beijing",
+   "continent" : "Asia",
+   "country" : "China",
+   "countryCode" : "CN",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "China Mobile Communications Corporation",
+   "lat" : "39.9075",
+   "lon" : "116.39723",
+   "org" : "China Mobile Communications Corporation",
+   "query" : "36.134.147.75",
+   "region" : "Beijing",
+   "status" : "success"
+}

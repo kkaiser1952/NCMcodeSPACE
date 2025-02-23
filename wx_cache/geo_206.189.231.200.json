@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "North Bergen",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "DigitalOcean, LLC",
+   "lat" : "40.80427",
+   "lon" : "-74.01208",
+   "org" : "DigitalOcean, LLC",
+   "query" : "206.189.231.200",
+   "region" : "New Jersey",
+   "status" : "success"
+}

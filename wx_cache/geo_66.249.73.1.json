@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Mountain View",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "crawl-66-249-73-1.googlebot.com",
+   "ipType" : "Residential",
+   "isp" : "Google LLC",
+   "lat" : "38.00881",
+   "lon" : "-122.11746",
+   "org" : "Google LLC",
+   "query" : "66.249.73.1",
+   "region" : "California",
+   "status" : "success"
+}

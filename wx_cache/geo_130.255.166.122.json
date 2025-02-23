@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Uppsala",
+   "continent" : "Europe",
+   "country" : "Sweden",
+   "countryCode" : "SE",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "GlobalConnect AB",
+   "lat" : "59.85882",
+   "lon" : "17.63889",
+   "org" : "GlobalConnect AB",
+   "query" : "130.255.166.122",
+   "region" : "Uppsala lan",
+   "status" : "success"
+}

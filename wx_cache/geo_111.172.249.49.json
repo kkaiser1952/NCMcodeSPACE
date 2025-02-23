@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Wuhan",
+   "continent" : "Asia",
+   "country" : "China",
+   "countryCode" : "CN",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "ChinaNet",
+   "lat" : "30.58333",
+   "lon" : "114.26667",
+   "org" : "ChinaNet",
+   "query" : "111.172.249.49",
+   "region" : "Hubei",
+   "status" : "success"
+}

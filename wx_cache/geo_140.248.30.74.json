@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Shawnee",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Fastly, Inc.",
+   "lat" : "39.04167",
+   "lon" : "-94.72024",
+   "org" : "Fastly, Inc.",
+   "query" : "140.248.30.74",
+   "region" : "Kansas",
+   "status" : "success"
+}

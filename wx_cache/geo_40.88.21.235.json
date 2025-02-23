@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Washington",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Microsoft Corporation",
+   "lat" : "38.71345",
+   "lon" : "-78.15944",
+   "org" : "Microsoft Corporation",
+   "query" : "40.88.21.235",
+   "region" : "Virginia",
+   "status" : "success"
+}

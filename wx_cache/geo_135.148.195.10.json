@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Ashburn",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "ip10.ip-135-148-195.us",
+   "ipType" : "Residential",
+   "isp" : "OVH US",
+   "lat" : "39.04372",
+   "lon" : "-77.48749",
+   "org" : "OVH US",
+   "query" : "135.148.195.10",
+   "region" : "Virginia",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Kansas City",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "T-Mobile USA, Inc.",
+   "lat" : "39.09973",
+   "lon" : "-94.57857",
+   "org" : "T-Mobile USA, Inc.",
+   "query" : "172.59.79.21",
+   "region" : "Missouri",
+   "status" : "success"
+}

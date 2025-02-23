@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Ashburn",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "ec2-35-171-144-152.compute-1.amazonaws.com",
+   "ipType" : "Residential",
+   "isp" : "Amazon Data Services NoVa",
+   "lat" : "39.04372",
+   "lon" : "-77.48749",
+   "org" : "Amazon Data Services NoVa",
+   "query" : "35.171.144.152",
+   "region" : "Virginia",
+   "status" : "success"
+}

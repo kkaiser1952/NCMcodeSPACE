@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Amsterdam",
+   "continent" : "Europe",
+   "country" : "Netherlands",
+   "countryCode" : "NL",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Limenet",
+   "lat" : "52.37403",
+   "lon" : "4.88969",
+   "org" : "Limenet",
+   "query" : "91.92.245.183",
+   "region" : "Noord-Holland",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Santa Clara",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "6 Collyer Quay",
+   "lat" : "37.35411",
+   "lon" : "-121.95524",
+   "org" : "6 Collyer Quay",
+   "query" : "43.159.128.149",
+   "region" : "California",
+   "status" : "success"
+}

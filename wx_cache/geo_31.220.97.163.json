@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Newark",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Nubes, LLC",
+   "lat" : "40.73566",
+   "lon" : "-74.17237",
+   "org" : "Nubes, LLC",
+   "query" : "31.220.97.163",
+   "region" : "New Jersey",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Ashburn",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "static.144.124.161.5.clients.your-server.de",
+   "ipType" : "Residential",
+   "isp" : "Hetzner Online GmbH",
+   "lat" : "39.04372",
+   "lon" : "-77.48749",
+   "org" : "Hetzner Online GmbH",
+   "query" : "5.161.124.144",
+   "region" : "Virginia",
+   "status" : "success"
+}

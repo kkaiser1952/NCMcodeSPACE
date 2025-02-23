@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "San Francisco",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Tencent Building, Kejizhongyi Avenue",
+   "lat" : "37.77493",
+   "lon" : "-122.41942",
+   "org" : "Tencent Building, Kejizhongyi Avenue",
+   "query" : "170.106.101.31",
+   "region" : "California",
+   "status" : "success"
+}

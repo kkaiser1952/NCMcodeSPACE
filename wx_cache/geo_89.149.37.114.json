@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Frankfurt am Main",
+   "continent" : "Europe",
+   "country" : "Germany",
+   "countryCode" : "DE",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Datacamp Limited",
+   "lat" : "50.11552",
+   "lon" : "8.68417",
+   "org" : "Datacamp Limited",
+   "query" : "89.149.37.114",
+   "region" : "Hessen",
+   "status" : "success"
+}

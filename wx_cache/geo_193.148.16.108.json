@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Shinagawa City",
+   "continent" : "Asia",
+   "country" : "Japan",
+   "countryCode" : "JP",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "M247 Europe SRL",
+   "lat" : "35.73485",
+   "lon" : "139.54624",
+   "org" : "M247 Europe SRL",
+   "query" : "193.148.16.108",
+   "region" : "Tokyo",
+   "status" : "success"
+}

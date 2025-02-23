@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Hamburg",
+   "continent" : "Europe",
+   "country" : "Germany",
+   "countryCode" : "DE",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "1337-Services-Gmbh-Network",
+   "lat" : "53.57532",
+   "lon" : "10.01534",
+   "org" : "1337-Services-Gmbh-Network",
+   "query" : "185.241.208.102",
+   "region" : "Hamburg",
+   "status" : "success"
+}

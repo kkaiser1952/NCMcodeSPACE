@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Guangzhou",
+   "continent" : "Asia",
+   "country" : "China",
+   "countryCode" : "CN",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "ChinaNet",
+   "lat" : "23.11667",
+   "lon" : "113.25",
+   "org" : "ChinaNet",
+   "query" : "14.215.163.132",
+   "region" : "Guangdong",
+   "status" : "success"
+}

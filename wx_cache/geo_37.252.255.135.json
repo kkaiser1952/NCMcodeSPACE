@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Leningrad",
+   "continent" : "Europe",
+   "country" : "Russia",
+   "countryCode" : "RU",
+   "ipName" : "dns.nextdns.io",
+   "ipType" : "Residential",
+   "isp" : "ANEXIA Internetdienstleistungs GmbH",
+   "lat" : "59.93863",
+   "lon" : "30.31413",
+   "org" : "ANEXIA Internetdienstleistungs GmbH",
+   "query" : "37.252.255.135",
+   "region" : "St.-Petersburg",
+   "status" : "success"
+}

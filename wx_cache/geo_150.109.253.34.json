@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Seoul",
+   "continent" : "Asia",
+   "country" : "South Korea",
+   "countryCode" : "KR",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "16 Collyer Quay",
+   "lat" : "37.566",
+   "lon" : "126.9784",
+   "org" : "16 Collyer Quay",
+   "query" : "150.109.253.34",
+   "region" : "Seoul",
+   "status" : "success"
+}

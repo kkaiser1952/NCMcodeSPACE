@@ -1,0 +1,323 @@
+<p> 
+The Net Control Manager (NCM) is a tool designed to manage and coordinate amateur radio communication nets. It helps track check-ins (by callsign), logs activity, and provide various features to support net control operations.  Net control operations are meant to be handled according to the guidelines set up by ARRL EMCOMM training procedures. This reflects the concepts promoted by NIMS and Homeland Security to handle emergency situations. 
+
+</p><p> 
+Nets are started at https://net-control.space by an individual using his/her callsign (the logger) generally for a group or club, stations are added based on their individual amateur radio callsign, nets will consist of as few as one to many participants (stations).
+    
+</p><p>
+NCM is upgrading from MySQL v5.5, PHP v7.0 to MySQL v8.0 & PHP v8.2
+    I leverage JavaScript and libraries like jQuery, Bootstrap, and Leaflet to enhance the user interface and functionality. There are a fair amount of API's being used as well.
+
+</p><p>
+The ultimate goal is to modernize the NCM codebase, instigate Server-Side Events (SSE), improve its performance, scaleability, security, and maintainability, while providing a seamless and interactive user experience for managing and coordinating amateur radio communication nets. Most of this is done, the current issue is that while adding a callsign to the UI the MySQL table updates are done but the UI itself is not updated until a page refresh. This is where I'm struggling to make the new version work.
+
+</p><p>
+You and I have agreed that when referring to the table being displayed by the net we will call it "Net Display Table" or "Display table" or even the "UI" to distinguish it from any MySQL table. The display of this table can be modified by the user to view many additional columns, most of which will already contain pieces of relevant information to the callsign. Many columns have dropdown values to choose. All columns are present, many are just NOT displayed by default.
+
+</p><p>
+The primary source of data for the "UI" is the MySQL database 'ncm' (lower case) table 'NetLog', a large table containing reference to every net ever created.
+
+</p><p>
+Another table in use is the "ncm TimeLog Table" or "TimeLog" it can also be optionally displayed at the same time below the "Net Display Table" in the "UI" but it is NOT editable. This table keeps the history of what happened and who did it and when it was done, for each net. All entries are by callsign and the details within tell the net story.
+
+</p><p>
+The 'callsign' is the primary way to identify a net participant/user/station.
+
+<br> 
+The 'logger' is the callsign/person/user who does the bulk of the new row additions (by checking-in a new callsign) and editing various cells if needed. But any user has the ability to change many of the column cells values. But some are locked from changes i.e. callsign, logdate, timeout.
+
+</p><p>
+Station is used as a generic reference to callsign, in most use cases they are the same thing, its just a broader term.
+
+</p><p>
+Another important MySQL table to be aware of is called 'ncm.stations' it has detailed information about each callsign/station. If a new callsign not already in 'stations' is added to the net, a mechanism is in place to look it up in the FCC database or other sources, extract relevent information, reverse geocode, and build a new record for and add it to the 'stations' table. All before adding it to the net.
+
+</p><p>
+The idea of pre-caching and/or connection pooling this table (stations) has come up and something to keep in mind for an opportunity to do that.
+
+</p><p>
+The file CellRowHeaderDefinitions.php controls column order, cell and the header definitions. They both have an identical class serving as an identifier for each cell, i.e. c3, c5, c15, etc.
+
+</p><p>    
+I aim to address challenges such as improving code organization, optimizing performance, and enhancing security measures, by use of prepared statements and parameter binding. I will focus on key modules like user management, check-in tracking, and logging capabilities. Ease and speed of user use is primary. Any code presented to you should be updated with this in mind.
+
+</p><p>
+There is NO preregistration required by a user to start, edit or be part of a net.
+ 
+</p><p>
+Implemented SSE code includes: sse.php, sendSseMessage.js, handleSSE.js, sse_handler.php perhaps others.
+
+</p><p>
+I hope this introductory statement saves us time downline. If you have recommendations about something to add or change here, please let me know so the next round of chats goes even better. I will share any of the full sized PHP and JS files with you. I ask that you refer back to this document during our conversations.
+    
+</p><p>REMEMBER: <br>
+       NCM uses PDO only for MySQL v8.x
+       NCM uses 'FETCH', not AJAX
+       NCM is written in HTML, PHP, JavaScript, and MySQL NOT Python, not Node, not C, etc
+       Avoid getting into excessive use of error logging in JS and PHP. I don't always need to see the error. Just solve the problem.
+<br>
+========== Sequence of Events ============
+</p><p>
+The process starts when net-control.space is launched which brings up the home page UI using index.php. A process is in place to create a new net. New net creation does not rely in any way on SSE because no one can check-into the net until it is created. Anyone wishing to observe the net may display the open net via a dropdown, displaying the requested net. The first entry in the net is the callsign that created the net.
+
+</p><p>
+Sequence of events...
+<br>
+A new callsign is entered into the field with class 'cs1'.
+<br>
+It is processed in class ckin1, this can take two directions.
+ 1. It is checked against the 'stations' table, if present the callsign and values are added to the UI, NetLog and TimeLog tables.
+ <br>
+ 2. If not in the 'stations' table a process is in place to look it up in the FCC database, retrieve or create the various data needed and then added to the 'stations' table, followed by being added to the UI.
+ 
+<br>
+This is the <td> where the callsign is entered into the index.php UI:
+    
+<pre><code>
+    &lt;input id=&quot;cs1&quot; type=&quot;text&quot; placeholder=&quot;Call or First Name&quot; maxlength=&quot;16&quot; class=&quot;cs1 ui-autocomplete-input&quot; autofocus=&quot;autofocus&quot; tabindex=&quot;1&quot;&gt;
+</code></pre>
+
+<br>
+However cs1 does NOT instigate the new callsign entry, that is done at the ckin1 <td> below. It does however kick off hints based on any 3 characters entered of the potential callsign attempting to be entered.
+    
+<br>
+The actual button to enter the new callsign and row is:
+
+<pre><code>
+    <button class="ckin1" onclick="handleCheckIn()">Check In</button>
+</code></pre>
+ 
+</p><p>
+The handleCheckIn(), addNewCallsignRow(), applyRowStyling() functions are in the checkIn.js file.
+
+</p><p>
+The JavaScript code captures either the onblur event or click event in the class 'ckin1' input field.
+
+<br>
+It retrieves the entered callsign and other relevant data from the UI.
+
+<br>
+The JavaScript code constructs a string (str) containing the necessary information, such as the callsign, net ID, and some other parameters.
+
+<br>
+It sends an HTTP POST request to checkIn.php using the Fetch API, passing the str data in the request body.
+
+</p><p>
+When the time comes I would like you to continue this part of this introduction to our chat.
+
+</p><p>
+
+Key programs to follow:
+<br>
+index.php --> primary to access the web page
+<br>
+addNewCallsignRow.js
+<br>
+checkin.js
+<br>
+checkin.php
+<br>
+newNet.js
+<br>
+addToNet.js
+<br>
+showActivities.js
+<br>
+getActivities.js
+<br>
+handleSSE.js 
+<br>
+sse.php
+<br>
+sse-listener.js
+<br>
+sendSseMessage.js
+<br>
+sse_handler.php 
+<br>
+save.php
+<br>
+processCheckIn.php
+<br>
+More, what are they??
+
+</p><p>
+Current Status:
+
+<br>
+Recap of Files and Current Status:
+
+<br>
+I believe we have an issue in the addNewCallsignRow function or the function handleCheckIn() both in the checkIn.js file. 
+ 
+<br>
+If you have any questions about what you just read please ask.
+</p>
+<br><br>
+// checkIn.js
+// Used to help with the checkIn process
+// v2 Updated: 2024-08-16
+
+//console.log('checkIn.js started, columnDefinitions:', window.columnDefinitions);
+
+var columnDefinitions = window.columnDefinitions || [];
+
+// Wait for the DOM to be fully loaded before attaching event listeners
+document.addEventListener('DOMContentLoaded', function() {
+    // Attach the handleCheckIn function to the check-in button
+    const checkInButton = document.querySelector('.ckin1');
+    if (checkInButton) {
+        checkInButton.addEventListener('click', handleCheckIn);
+    }
+
+    // Add event listener for the 'Enter' key on the callsign input field
+    const callsignInput = document.getElementById('cs1');
+    if (callsignInput) {
+        callsignInput.addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                handleCheckIn();
+            }
+        });
+    }
+});
+
+/*
+Flag Initialization: A global variable checkInHandled is used to track whether handleCheckIn() has already been executed.
+Prevent Duplicate Execution: The function checks the checkInHandled flag at the beginning. If it’s true, the function returns early to avoid re-execution.
+Reset Flag on Error: If any validation fails (e.g., if the cs1 field is empty), the flag is reset to allow the function to be triggered again.
+Reset Flag After Completion: The flag is reset in the .finally() block of the fetch request, ensuring it’s cleared after the function completes, whether it succeeds or fails.
+*/
+
+let checkInHandled = false;
+
+function handleCheckIn() {
+    if (checkInHandled) return; // Prevent duplicate execution
+    checkInHandled = true;
+
+    const cs1 = document.getElementById('cs1').value;
+    const currentNetID = document.getElementById('currentNetID').value;
+    // Add any other necessary variables here
+
+    if (!cs1) {
+        alert("Callsign is required");
+        checkInHandled = false; // Reset flag if validation fails
+        return;
+    }
+
+    const str = `${currentNetID}:${cs1}:0:TE0ST:0:`; // Adjust this according to your needs
+
+    console.log("Sending check-in data:", str);
+
+    fetch('checkIn.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: 'q=' + encodeURIComponent(str)
+    })
+    .then(response => response.text())
+    .then(text => {
+        //console.log("Raw response:", text);
+        const jsonStart = text.indexOf('{');
+        const jsonEnd = text.lastIndexOf('}') + 1;
+        const jsonString = text.slice(jsonStart, jsonEnd);
+        return JSON.parse(jsonString);
+    })
+    .then(data => {
+        console.log("Parsed data:", data);
+        if (data.success) {
+            if (data.checkInRowData) {
+                console.log("Adding new row with data:", data.checkInRowData);
+                addNewCallsignRow(data.checkInRowData, data.checkInRowData.recordID);
+                document.getElementById('cs1').value = ''; // Clear input
+            } else {
+                console.warn("Check-in successful, but no checkInRowData received:", data.message);
+            }
+        } else {
+            console.error("Check-in failed:", data.message);
+        }
+    })
+    .catch(error => {
+        console.error("Error during check-in:", error);
+    })
+    .finally(() => {
+        checkInHandled = false; // Reset flag after processing
+    }); // End .then
+} // End handleCheckIn()
+
+
+//console.log('columnDefinitions:', columnDefinitions);
+if (!columnDefinitions || !Array.isArray(columnDefinitions)) {
+    console.error('columnDefinitions is not properly defined');
+}
+
+function addNewCallsignRow(checkInRowData, recordID) {
+    console.log('addNewCallsignRow called with:', JSON.stringify(checkInRowData), recordID);
+    
+    const netBody = document.getElementById('netBody');
+    if (!netBody) {
+        console.error('netBody element not found');
+        return null;
+    }
+
+    const newRow = document.createElement('tr');
+    
+    // Use the columnDefinitions to ensure correct order and attributes
+    columnDefinitions.forEach(colDef => {
+        //console.log(`Processing column ${index}:`, colDef);
+        const cell = document.createElement('td');
+        
+        // Set class and other attributes
+        cell.className = colDef.class;
+        if (colDef.id) cell.id = colDef.id.replace(':', recordID);
+        
+        // Set data attributes
+        for (const [key, value] of Object.entries(colDef)) {
+            if (key.startsWith('data-')) {
+                cell.setAttribute(key, value);
+            }
+        }
+        
+        // Set content
+        const columnName = colDef['data-column'];
+        if (columnName && checkInRowData[columnName]) {
+            cell.textContent = checkInRowData[columnName];
+        } else if (colDef.content) {
+            cell.innerHTML = colDef.content.replace('{recordID}', recordID);
+        }
+        
+        newRow.appendChild(cell);
+        //console.log(`Cell added for column ${index}`);
+    });
+
+    netBody.appendChild(newRow);
+    console.log('New row added to the table');
+    return newRow;
+}
+
+function applyRowStyling(row, data) {
+    //console.log('Applying row styling for:', data.callsign);
+    columnDefinitions.forEach(function(column, index) {
+        var cell = row.cells[index];
+        if (!cell) 
+            console.warn('Cell not found for index:', index);
+        return;
+
+        if (column.oncontextmenu) {
+            cell.setAttribute('oncontextmenu', column.oncontextmenu.replace(/{recordID}/g, data.recordID).replace(/{callsign}/g, data.callsign).replace(/{netID}/g, data.netID) + ';return false;');
+        }
+        if (column.ondblclick) {
+            cell.setAttribute('ondblclick', column.ondblclick.replace(/{recordID}/g, data.recordID).replace(/{callsign}/g, data.callsign).replace(/{netID}/g, data.netID) + ';return false;');
+        }
+        if (column.onclick) {
+            cell.setAttribute('onclick', column.onclick.replace(/{recordID}/g, data.recordID));
+        }
+        if (column.title) {
+            cell.setAttribute('title', column.title.replace(/{callsign}/g, data.callsign));
+        }
+        // Add any other attributes that need to be set dynamically
+    });
+    console.log('Row styling applied'); 
+}
+
+// You can add any additional helper functions here if needed

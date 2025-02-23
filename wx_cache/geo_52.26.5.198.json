@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Boardman",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "ec2-52-26-5-198.us-west-2.compute.amazonaws.com",
+   "ipType" : "Residential",
+   "isp" : "Amazon.com",
+   "lat" : "45.83986",
+   "lon" : "-119.70058",
+   "org" : "Amazon.com",
+   "query" : "52.26.5.198",
+   "region" : "Oregon",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Frankfurt am Main",
+   "continent" : "Europe",
+   "country" : "Germany",
+   "countryCode" : "DE",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "DigitalOcean, LLC",
+   "lat" : "50.11552",
+   "lon" : "8.68417",
+   "org" : "DigitalOcean, LLC",
+   "query" : "68.183.213.67",
+   "region" : "Hessen",
+   "status" : "success"
+}

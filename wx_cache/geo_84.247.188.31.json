@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Munchen",
+   "continent" : "Europe",
+   "country" : "Germany",
+   "countryCode" : "DE",
+   "ipName" : "ip84-247-188-31.breiband.no",
+   "ipType" : "Residential",
+   "isp" : "Contabo GmbH",
+   "lat" : "48.13743",
+   "lon" : "11.57549",
+   "org" : "Contabo GmbH",
+   "query" : "84.247.188.31",
+   "region" : "Bayern",
+   "status" : "success"
+}

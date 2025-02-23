@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Columbus",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "ec2-3-17-130-44.us-east-2.compute.amazonaws.com",
+   "ipType" : "Residential",
+   "isp" : "Amazon.com",
+   "lat" : "39.96118",
+   "lon" : "-82.99879",
+   "org" : "Amazon.com",
+   "query" : "3.17.130.44",
+   "region" : "Ohio",
+   "status" : "success"
+}

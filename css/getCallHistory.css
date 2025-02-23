@@ -1,0 +1,118 @@
+/* Used by all the getCallHistory... programs */
+/* Written: 2023-12-17                        */
+
+body {
+	font-size:16pt;
+	justify-content: space-around;
+	background: white;
+}
+
+#reportTOD {
+    border-collapse: collapse;
+    width: 100%;
+}
+#reportTOD td, #reportTOD th {
+	border: 1px solid #ddd;
+	font-wight: bold;
+}
+
+#reportTOD tr:nth-child(even){background-color: #f2f2f2;}
+
+#reportTOD tr:hover {background-color: #ddd;}
+
+#reportTOD th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#reportTOD tr {
+	text-align: center;
+	font-wight: bold;
+	font-size: 10pt;
+}
+
+#places tr {
+	text-align: left;
+	text-weight: bold;
+	font-size: 12pt;
+}
+#places tr td:nth-child(2) {
+	padding-left: 10pt;
+}
+
+.printme {
+	float: right;
+	border-radius: 9px;
+	border: 2px solid purple;
+	background-color: lightpurple;
+}
+
+@media print{
+    #lb1{
+	    display:block;
+	}
+}
+
+.equalspace{
+    display:flex;
+    justify-content: space-between;
+}
+
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.container2 {
+	align-items: center;
+	justify-content: space-around;
+}
+
+	
+.item1 {
+	flex-grow: 1;
+	margin: auto;
+	flex: 1 0 33%;
+}
+.item2 {
+	flex-grow: 1;
+	margin: auto;
+	flex: 1 0 33%;
+}
+.item3 {
+	flex-grow: 1;
+	flex: 1 0 33%;
+}
+
+img {
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    object-fit: contain; 
+    max-width: 100px;
+}
+
+p.b {
+    font-family: 'Allerta', sans-serif;
+    font-size:40pt;
+    text-align:center; 
+    color:blue;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+		
+.container2 {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.container2 span {
+	    text-align: center;
+}

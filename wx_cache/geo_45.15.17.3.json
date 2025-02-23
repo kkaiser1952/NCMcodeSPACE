@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "New York",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "HIVELOCITY, Inc.",
+   "lat" : "40.71427",
+   "lon" : "-74.00597",
+   "org" : "HIVELOCITY, Inc.",
+   "query" : "45.15.17.3",
+   "region" : "New York",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Slough",
+   "continent" : "Europe",
+   "country" : "United Kingdom",
+   "countryCode" : "GB",
+   "ipName" : "bd2.leenix.co.uk",
+   "ipType" : "Residential",
+   "isp" : "DigitalOcean, LLC",
+   "lat" : "51.50949",
+   "lon" : "-0.59541",
+   "org" : "DigitalOcean, LLC",
+   "query" : "178.62.0.73",
+   "region" : "England",
+   "status" : "success"
+}

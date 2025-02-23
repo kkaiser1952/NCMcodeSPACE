@@ -1,0 +1,370 @@
+/*
+NET CONTROL MANAGER STYLES V2
+*/
+
+/*
+ * * TABLE OF CONTENTS
+ * * =================
+ * * o)   RESET
+ * * i)   @imports
+ * * ii)  @variables
+ * * 1)   Site-Wide Elements
+ * * 2)   Site-Wide Classes
+ * * 3)   Site Header
+ * * 4)   Site Footer
+ * * 5)   General Page Template
+ * *
+ * * 10)  Homepage - Initial Load
+ * * 11)  Homepage - Net Controller
+ * *
+ * *
+ * *
+*/
+
+
+/* <editor-fold desc="(i) @imports"> */
+/* </editor-fold> */
+
+/* <editor-fold desc="(ii) Variables"> */
+:root {
+    --darkBlue: #083366;
+    --cprsBlue: #0a4495;
+    --lightBlue: #6094DC;
+    --cprsBlack: #212121;
+    --cprsGold: #FCB426;
+    --cprsGreen: #72B007;
+    --lightGray: #DFE6EF;
+    --darkGray: #474b4f;
+}
+
+/* </editor-fold> */
+/* =========================================== */
+
+
+/* <editor-fold desc="(1) SITE-WIDE ELEMENTS"> */
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #E0E1E3;
+    overflow-x: hidden;
+}
+
+/* </editor-fold> */
+/* =========================================== */
+
+/* <editor-fold desc="(2) SITE-WIDE CLASSES"> */
+.page {
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    padding-top: 2vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* </editor-fold> */
+/* =========================================== */
+
+/* <editor-fold desc="(3) SITE HEADER"> */
+.siteLogo1,
+.siteLogo2 {
+    display: inline-block;
+    height: 70px;
+}
+
+.wxDisplay {
+    background: #2268cb;
+    text-align: center;
+    display: flex;
+}
+
+.wxDisplay:hover {
+    background: #2061bd;
+}
+
+.wxDisplay img {
+    height: 25px;
+}
+
+.wxDisplay a {
+    color: white;
+    text-decoration: none;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+/* </editor-fold> */
+/* =========================================== */
+
+
+/* <editor-fold desc="(10) HOME PAGE - INITIAL LOAD"> */
+.initialLoadScreen {
+    padding-top: 10vh;
+    text-align: center;
+}
+.activeNetSelector {
+    padding: 10px;
+    width: 500px;
+    max-width: 100%;
+    background: #eeeeee;
+    margin: 10px;
+}
+
+/* </editor-fold> */
+/* =========================================== */
+
+/* <editor-fold desc="(11) HOME PAGE - NET CONTROLLER"> */
+.netTitle {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* ===== NET CONTROL BAR ==== */
+.netControlBar {
+    background: #C6AED7;
+    border: 2px solid #7804FC;
+    border-radius: 10px;
+    padding: 5px;
+
+    display: flex;
+}
+
+.netControlBar > div {
+    flex-grow: 1;
+}
+
+.netControlBar button {
+    outline: none;
+    border-radius: 5px;
+}
+
+.ncbCheckinForm {
+    flex-basis: 50%;
+}
+
+#ncbfTraffic {
+    width: 30px;
+}
+
+.ncbCheckinForm button[type="submit"] {
+    background: #b0ff9e;
+    border: 2px solid #587a48;
+    font-weight: bold;
+}
+
+.ncbCenter,
+.ncbRight {
+    display: flex;
+    justify-content: space-between;
+}
+
+.netControlBar .showHideColumns {
+    background: #fab4aa;
+    border: 2px solid #af5349;
+}
+
+.netControlBar .openTimeline {
+    background: #9eddff;
+    border: 2px solid #486d7a;
+}
+
+.netControlBar .closeNet {
+    background: #e0e0e0;
+    border: 2px solid #ff2b2b;
+    color: #ff2b2b;
+    font-weight: bold;
+}
+
+/* ===== FREQUENCY TABLE ===== */
+.freqTableTray {
+    position: absolute;
+    top: 0px;
+    right: -450px;
+    z-index: 99999;
+    display: flex;
+    align-items: flex-start;
+}
+
+.fttTab {
+    background: white;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.fttTab img {
+    height: 40px;
+    width: 40px;
+}
+
+.fttPanel {
+    background: white;
+    border: thin solid #e0e0e0;
+    padding: 8px;
+    z-index: 99998;
+    box-shadow: 0 0 5px gray;
+}
+
+.fttTitle {
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: thin solid black;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.nobg {
+    color:White;
+    background-color: #D7131B;
+    padding: 3px;
+}
+
+.nobg1 {
+    color: #D7131B;
+    background-color: #ACDDA4;
+    font-weight: bold;
+    padding: 3px;
+
+}
+
+.dmr {  /* This is for the 2nd column of ourFrequencies */
+    color: #D7131B;
+    background-color: #ACDDA4;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.nobg2 {
+    column-span:all;
+    color: #D7131B;
+    font-weight: bold;
+    padding: 3px;
+    padding-right: 10px;
+}
+
+.dmr2 { /* This is for changing rows of ourFrequencies */
+    color: #2e13d7;
+    font-weight: bold;
+    padding: 3px;
+}
+
+#freqTable {
+    border-spacing: 1px;
+    float: right;
+    padding: 5px;
+    width: 450px;
+}
+
+#sfreq {
+    position: absolute;
+    right: 0;
+    top: auto;
+}
+
+/* ===== STATION TABLE ==== */
+.nct {
+    font-weight: bold;
+}
+.nct thead {
+    background: #2C742F;
+    color: white;
+}
+
+.nct tbody tr:nth-child(odd) {
+    background-color: #EAF2D3;
+}
+
+.nct tr.rowCONTROL { background: #BAE5FC !important; }
+.nct tr.rowDIGITAL { background: #FA8072 !important; }
+.nct tr.rowOUT, .nct tr.rowINOUT { background: #CDD3BC !important; }
+.nct tr.rowBRB { background: #a6bda9 !important; }
+.nct tr.rowPRIORITY, .nct tr.rowEMERGENCY { background: #FFC0CB !important; color: #FA0404 }
+
+.nct td.cellMOVED { background: #FFA500 !important; }
+.nct td.cellMISSING { background: #FF0000 !important; }
+.nct td.cellNEWCALL { background: #FFDB2B !important; }
+.nct td.cellTRAFFIC { background: #FF9CC2 !important; }
+
+.nct td {
+    border: thin solid #98BF21;
+}
+
+.nct .deleteRow {
+    width: 15px;
+    filter: invert(8%) sepia(86%) saturate(6727%) hue-rotate(360deg) brightness(89%) contrast(108%);
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+/* ===== NET INFO ==== */
+.netStats {
+    display: flex;
+    justify-content: space-between;
+    background: #fafafa;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.netFooter {
+    font-weight: bold;
+}
+
+.netFooter a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.netFooter #exportCSV {
+    color: #0088CC;
+}
+
+.netFooter #geoDistance,
+.netFooter #mapNet {
+    color: #008000;
+}
+
+
+/* ===== NET TIMELINE ==== */
+.timeline {
+    display: none;
+    font-weight: bold;
+}
+
+.tt {
+}
+
+.tt thead {
+    background: #B00C0C;
+    color: white;
+}
+
+.tt tbody tr:nth-child(odd) {
+    background-color: #ffffb9;
+}
+
+.tt td {
+    border: thin solid #98BF21;
+    font-size: 0.8em;
+}
+
+.tt .nowrap {
+    white-space: nowrap;
+}
+
+/* </editor-fold> */
+/* =========================================== */

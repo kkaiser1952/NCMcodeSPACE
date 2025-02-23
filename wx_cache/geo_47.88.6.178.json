@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Los Angeles",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Alibaba.com LLC",
+   "lat" : "34.05223",
+   "lon" : "-118.24368",
+   "org" : "Alibaba.com LLC",
+   "query" : "47.88.6.178",
+   "region" : "California",
+   "status" : "success"
+}

@@ -1,0 +1,56 @@
+/* sidebar.css */
+/* Updated: 2024-10-09 */
+
+#columnSidebar {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 400px;
+    height: 100%;
+    background-color: #f1f1f1;
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    transition: right 0.3s ease;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+#columnSidebar.show {
+    right: 0;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-wrapper label {
+    margin-left: 8px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.category-header {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.default-column {
+    color: #888;
+    font-style: italic;
+}

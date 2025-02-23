@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Moscow",
+   "continent" : "Europe",
+   "country" : "Russia",
+   "countryCode" : "RU",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Biterika Group LLC",
+   "lat" : "55.75222",
+   "lon" : "37.61556",
+   "org" : "Biterika Group LLC",
+   "query" : "45.11.21.73",
+   "region" : "Moscow",
+   "status" : "success"
+}

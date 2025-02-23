@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "St Louis",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Cybercon, Inc.",
+   "lat" : "38.62727",
+   "lon" : "-90.19789",
+   "org" : "Cybercon, Inc.",
+   "query" : "146.19.36.22",
+   "region" : "Missouri",
+   "status" : "success"
+}

@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Washington D.C.",
+   "continent" : "North America",
+   "country" : "United States",
+   "countryCode" : "US",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "TELUS Communications",
+   "lat" : "38.89511",
+   "lon" : "-77.03637",
+   "org" : "TELUS Communications",
+   "query" : "207.102.138.19",
+   "region" : "District of Columbia",
+   "status" : "success"
+}

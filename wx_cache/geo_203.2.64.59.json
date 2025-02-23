@@ -1,0 +1,17 @@
+{
+   "businessName" : "",
+   "businessWebsite" : "",
+   "city" : "Guangzhou",
+   "continent" : "Asia",
+   "country" : "China",
+   "countryCode" : "CN",
+   "ipName" : "",
+   "ipType" : "Residential",
+   "isp" : "Chongqing Telecom",
+   "lat" : "23.11667",
+   "lon" : "113.25",
+   "org" : "Chongqing Telecom",
+   "query" : "203.2.64.59",
+   "region" : "Guangdong",
+   "status" : "success"
+}
